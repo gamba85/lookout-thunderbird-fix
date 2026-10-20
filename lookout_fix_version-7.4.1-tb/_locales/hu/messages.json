@@ -1,0 +1,68 @@
+{
+    "attach_raw_mapi_check.accesskey": {
+        "message": "M"
+    },
+    "attach_raw_mapi_check.label": {
+        "message": "MAPI tulajdonságok tárolása"
+    },
+    "disable_filename_character_set_check.accesskey": {
+        "message": "F"
+    },
+    "disable_filename_character_set_check.label": {
+        "message": "Fájlnév karaktertábla-konverziójának bénítása"
+    },
+    "enable_debug_check.accesskey": {
+        "message": "E"
+    },
+    "enable_debug_check.label": {
+        "message": "Engedélyezze a hibakeresést"
+    },
+    "extensionDescription": {
+        "message": "A MutasdMeg! megnyitja és letölthetővé teszi a levelek TNEF (Transport Neutral Encapsulation Format – szállítási semleges befoglaló formátum) kódolással csatolt mellékleteit (általában winmail.dat)."
+    },
+    "extensionName": {
+        "message": "MutasdMeg! (LookOut)"
+    },
+    "extensions.lookout.attach_raw_mapi": {
+        "message": "false"
+    },
+    "extensions.lookout.body_part_prefix": {
+        "message": "törzs_"
+    },
+    "extensions.lookout.description": {
+        "message": "A MutasdMeg! (LookOut) megnyitja és letölthetővé teszi a levelek TNEF (Transport Neutral Encapsulation Format – szállítási semleges befoglaló formátum) kódolással csatolt mellékleteit"
+    },
+    "extensions.lookout.direct_to_calendar": {
+        "message": "false"
+    },
+    "extensions.lookout.disable_filename_character_set": {
+        "message": "false"
+    },
+    "lookout.label": {
+        "message": "A helyi menüpont"
+    },
+    "pane1.title": {
+        "message": "MutasdMeg! beállítások"
+    },
+    "remove_winmail_dat_check.accesskey": {
+        "message": "W"
+    },
+    "remove_winmail_dat_check.label": {
+        "message": "Winmail.dat eltávolítása"
+    },
+    "replace_body_check.accesskey": {
+        "message": "H"
+    },
+    "replace_body_check.label": {
+        "message": "Az üzenet törzsének cseréje a csatolt HTML-re, ha van"
+    },
+    "strict_contenttype_check.accesskey": {
+        "message": "t"
+    },
+    "strict_contenttype_check.label": {
+        "message": "Szigorú tartalomtípus-egyezés"
+    },
+    "junk_tnef_warning": {
+        "message": "A LookOut nem dolgozta fel a winmail.dat fájlt, mert ez az üzenet a Levélszemét mappában található."
+    }
+}

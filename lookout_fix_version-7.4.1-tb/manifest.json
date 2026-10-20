@@ -1,0 +1,63 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "lookout@s3_fix_version",
+      "strict_min_version": "140.0",
+      "strict_max_version": "159.*"
+    }
+  },
+  "version": "7.4.1",
+  "default_locale": "en-US",
+  "author": "Dugite-Code",
+  "homepage_url": "https://github.com/TB-throwback/LookOut-fix-version/",
+  "icons": {
+    "32": "icons/LOicon-32.png",
+    "48": "icons/LOicon-48.png",
+    "64": "icons/LOicon-64.png"
+  },
+  "experiment_apis": {
+    "Attachment": {
+      "schema": "api/Attachment/schema.json",
+      "parent": {
+        "scopes": [
+          "addon_parent"
+        ],
+        "paths": [
+          [
+            "Attachment"
+          ]
+        ],
+        "script": "api/Attachment/implementation.js"
+      }
+    },
+    "LegacyPrefs": {
+      "schema": "api/LegacyPrefs/schema.json",
+      "parent": {
+        "scopes": [
+          "addon_parent"
+        ],
+        "paths": [
+          [
+            "LegacyPrefs"
+          ]
+        ],
+        "script": "api/LegacyPrefs/implementation.js"
+      }
+    }
+  },
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [
+    "messagesRead",
+    "accountsRead",
+    "scripting",
+    "storage"
+  ],
+  "options_ui": {
+    "page": "options/options.html"
+  }
+}

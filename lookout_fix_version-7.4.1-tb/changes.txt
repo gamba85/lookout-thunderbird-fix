@@ -1,0 +1,47 @@
+7.4
+Note: This version has been developed using LLM's.
+* Re-impliment Calendar event actions (Note: using legacy iMIP bar).
+* New feature replace message body with body_part_0.html if it exists (modern TNEF emails only).
+* New Preference to toggle message body replacment behaviour.
+* Introduce an alert that the email is not being processed when in the Junk folder or flagged as Junk
+
+7.3
+Version bump
+
+7.1
+V144.* compatibility bump
+
+7.0
+Migrates preferences to local storage for future removal of the LegacyPrefs API. Re-implement ClearAttachmentList()
+
+6.7
+* Max Version bump to TB 140.* Version < = 141 requires updates
+
+6.6
+* Max Version bump to TB 139.*
+
+6.5
+* Max Version bump to TB 138.*
+
+6.4
+
+* Bumped Max version to allow install on Thunderbird bete v135.8
+* Added Spanish MX Translation
+
+6.3
+
+* Update for Thunderbird 128
+* Update manifest.json
+
+6.2
+* Added Italian Translation
+* Added Polish translation
+
+6.1
+Fix Remove Winmail.dat preference removing additional attachments such as forwarded emails as well.
+
+6.0
+* Moved control logic into background
+* Use TNEF lib in background script using a PseudoInputStream, which partially implements nsIInputStream.
+* Using dedicated Experiment to minipulate attachments in the message window
+* Use ES6 modules
